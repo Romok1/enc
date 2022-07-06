@@ -5,7 +5,7 @@ lock '3.11.0'
 
 set :application, 'enc'
 
-set :repo_url, 'git@github.com:unepwcmc/encore.git'
+set :repo_url, 'git@github.com:Romok1/enc.git'
 
 set :nvm_type, :user # or :system, depends on your nvm setup
 set :nvm_node, 'v12.18.3'
