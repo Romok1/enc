@@ -3,7 +3,7 @@
 # config valid only for current version of Capistrano
 lock '3.11.0'
 
-set :application, 'ncfa'
+set :application, 'enc'
 
 set :repo_url, 'git@github.com:unepwcmc/encore.git'
 
@@ -25,10 +25,10 @@ set :deploy_to, "/home/#{fetch(:deploy_user)}/#{fetch(:application)}"
 
 # Default value for :scm is :git
 set :scm, :git
-set :scm_username, 'unepwcmc-read'
+set :scm_username, 'Romok1'
 
 set :rvm_type, :user
-set :rvm_ruby_version, '2.5.0'
+set :rvm_ruby_version, '2.7.3'
 
 set :ssh_options, {
   forward_agent: true
